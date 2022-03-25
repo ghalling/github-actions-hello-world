@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ghalling/hello-world-javascript-action@v1.1
+        uses: ghalling/github-actions-hello-world@vo.1
         with:
           who-to-greet: 'Gustav'
       # Use the output from the `hello` step
